@@ -1,0 +1,17 @@
+D:\EcommerceMicroservices\src\Services\ProductService\ProductService.Infrastructure\bin\Debug\net9.0\ProductService.Infrastructure.deps.json
+D:\EcommerceMicroservices\src\Services\ProductService\ProductService.Infrastructure\bin\Debug\net9.0\ProductService.Infrastructure.runtimeconfig.json
+D:\EcommerceMicroservices\src\Services\ProductService\ProductService.Infrastructure\bin\Debug\net9.0\ProductService.Infrastructure.dll
+D:\EcommerceMicroservices\src\Services\ProductService\ProductService.Infrastructure\bin\Debug\net9.0\ProductService.Infrastructure.pdb
+D:\EcommerceMicroservices\src\Services\ProductService\ProductService.Infrastructure\bin\Debug\net9.0\ProductService.Domain.dll
+D:\EcommerceMicroservices\src\Services\ProductService\ProductService.Infrastructure\bin\Debug\net9.0\ProductService.Domain.pdb
+D:\EcommerceMicroservices\src\Services\ProductService\ProductService.Infrastructure\obj\Debug\net9.0\ProductService.Infrastructure.csproj.AssemblyReference.cache
+D:\EcommerceMicroservices\src\Services\ProductService\ProductService.Infrastructure\obj\Debug\net9.0\ProductService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\EcommerceMicroservices\src\Services\ProductService\ProductService.Infrastructure\obj\Debug\net9.0\ProductService.Infrastructure.AssemblyInfoInputs.cache
+D:\EcommerceMicroservices\src\Services\ProductService\ProductService.Infrastructure\obj\Debug\net9.0\ProductService.Infrastructure.AssemblyInfo.cs
+D:\EcommerceMicroservices\src\Services\ProductService\ProductService.Infrastructure\obj\Debug\net9.0\ProductService.Infrastructure.csproj.CoreCompileInputs.cache
+D:\EcommerceMicroservices\src\Services\ProductService\ProductService.Infrastructure\obj\Debug\net9.0\ProductS.4D387919.Up2Date
+D:\EcommerceMicroservices\src\Services\ProductService\ProductService.Infrastructure\obj\Debug\net9.0\ProductService.Infrastructure.dll
+D:\EcommerceMicroservices\src\Services\ProductService\ProductService.Infrastructure\obj\Debug\net9.0\refint\ProductService.Infrastructure.dll
+D:\EcommerceMicroservices\src\Services\ProductService\ProductService.Infrastructure\obj\Debug\net9.0\ProductService.Infrastructure.pdb
+D:\EcommerceMicroservices\src\Services\ProductService\ProductService.Infrastructure\obj\Debug\net9.0\ProductService.Infrastructure.genruntimeconfig.cache
+D:\EcommerceMicroservices\src\Services\ProductService\ProductService.Infrastructure\obj\Debug\net9.0\ref\ProductService.Infrastructure.dll

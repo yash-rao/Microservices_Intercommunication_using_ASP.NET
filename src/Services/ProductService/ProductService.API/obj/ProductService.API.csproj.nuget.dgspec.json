@@ -1,0 +1,301 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\EcommerceMicroservices\\src\\Services\\ProductService\\ProductService.API\\ProductService.API.csproj": {}
+  },
+  "projects": {
+    "D:\\EcommerceMicroservices\\src\\Services\\ProductService\\ProductService.API\\ProductService.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\EcommerceMicroservices\\src\\Services\\ProductService\\ProductService.API\\ProductService.API.csproj",
+        "projectName": "ProductService.API",
+        "projectPath": "D:\\EcommerceMicroservices\\src\\Services\\ProductService\\ProductService.API\\ProductService.API.csproj",
+        "packagesPath": "C:\\Users\\yashb\\.nuget\\packages\\",
+        "outputPath": "D:\\EcommerceMicroservices\\src\\Services\\ProductService\\ProductService.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\yashb\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "D:\\EcommerceMicroservices\\src\\Services\\ProductService\\ProductService.Application\\ProductService.Application.csproj": {
+                "projectPath": "D:\\EcommerceMicroservices\\src\\Services\\ProductService\\ProductService.Application\\ProductService.Application.csproj"
+              },
+              "D:\\EcommerceMicroservices\\src\\Services\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj": {
+                "projectPath": "D:\\EcommerceMicroservices\\src\\Services\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj"
+              },
+              "D:\\EcommerceMicroservices\\src\\Services\\ProductService\\ProductService.Infrastructure\\ProductService.Infrastructure.csproj": {
+                "projectPath": "D:\\EcommerceMicroservices\\src\\Services\\ProductService\\ProductService.Infrastructure\\ProductService.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.13, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\EcommerceMicroservices\\src\\Services\\ProductService\\ProductService.Application\\ProductService.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\EcommerceMicroservices\\src\\Services\\ProductService\\ProductService.Application\\ProductService.Application.csproj",
+        "projectName": "ProductService.Application",
+        "projectPath": "D:\\EcommerceMicroservices\\src\\Services\\ProductService\\ProductService.Application\\ProductService.Application.csproj",
+        "packagesPath": "C:\\Users\\yashb\\.nuget\\packages\\",
+        "outputPath": "D:\\EcommerceMicroservices\\src\\Services\\ProductService\\ProductService.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\yashb\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\EcommerceMicroservices\\src\\Services\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\EcommerceMicroservices\\src\\Services\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj",
+        "projectName": "ProductService.Domain",
+        "projectPath": "D:\\EcommerceMicroservices\\src\\Services\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj",
+        "packagesPath": "C:\\Users\\yashb\\.nuget\\packages\\",
+        "outputPath": "D:\\EcommerceMicroservices\\src\\Services\\ProductService\\ProductService.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\yashb\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\EcommerceMicroservices\\src\\Services\\ProductService\\ProductService.Infrastructure\\ProductService.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\EcommerceMicroservices\\src\\Services\\ProductService\\ProductService.Infrastructure\\ProductService.Infrastructure.csproj",
+        "projectName": "ProductService.Infrastructure",
+        "projectPath": "D:\\EcommerceMicroservices\\src\\Services\\ProductService\\ProductService.Infrastructure\\ProductService.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\yashb\\.nuget\\packages\\",
+        "outputPath": "D:\\EcommerceMicroservices\\src\\Services\\ProductService\\ProductService.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\yashb\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "D:\\EcommerceMicroservices\\src\\Services\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj": {
+                "projectPath": "D:\\EcommerceMicroservices\\src\\Services\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.13, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

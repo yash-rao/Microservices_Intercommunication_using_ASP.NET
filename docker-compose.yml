@@ -1,0 +1,52 @@
+services:
+
+  mysql:
+    image: mysql:8.0
+    container_name: mysqldb
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: ProductDb
+    ports:
+      - "3306:3306"
+
+  authservice:
+    build:
+      context: ./src/Services/AuthService/AuthService.API
+    ports:
+      - "5190:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - Jwt__Issuer=authservice
+      - Jwt__Audience=ecommerce_users
+      - Jwt__Key=super_secure_key_1234567890
+
+  productservice:
+    build:
+      context: ./src/Services/ProductService
+      dockerfile: ProductService.API/Dockerfile
+    ports:
+      - "5163:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection=server=mysqldb;port=3306;user=root;password=root;database=ProductDb;
+    depends_on:
+      - mysql
+
+  orderservice:
+    build:
+      context: ./src/Services/OrderService
+      dockerfile: OrderService.API/Dockerfile
+    ports:
+      - "5180:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection=server=mysqldb;port=3306;user=root;password=root;database=OrderDb;
+      - ServiceUrls__ProductService=http://productservice
+      - Jwt__Issuer=authservice
+      - Jwt__Audience=ecommerce_users
+      - Jwt__Key=super_secure_key_1234567890
+    depends_on:
+      - productservice
+      - authservice
+      - mysql
