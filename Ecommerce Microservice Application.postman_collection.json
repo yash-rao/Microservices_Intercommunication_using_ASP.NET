@@ -1,0 +1,258 @@
+{
+	"info": {
+		"_postman_id": "6d0d850e-2da8-40ac-935a-f4f3d2be6b03",
+		"name": "Ecommerce Microservice Application",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42866105",
+		"_collection_link": "https://net111-2204.postman.co/workspace/NET-Workspace~22ac96f4-113c-4c14-82da-e4a4e0306f0f/collection/42866105-6d0d850e-2da8-40ac-935a-f4f3d2be6b03?action=share&source=collection_link&creator=42866105"
+	},
+	"item": [
+		{
+			"name": "Get Products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5163/api/product",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5163",
+					"path": [
+						"api",
+						"product"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Product",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Gaming Mouse\",\r\n  \"description\": \"RGB wireless gaming mouse\",\r\n  \"price\": 59.99,\r\n  \"stock\": 25,\r\n  \"category\": \"Accessories\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5163/api/product",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5163",
+					"path": [
+						"api",
+						"product"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Product_1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5163/api/product/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5163",
+					"path": [
+						"api",
+						"product",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Modify Product",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 1,\r\n  \"name\": \"Gaming Mouse Pro\",\r\n  \"description\": \"Updated mouse description\",\r\n  \"price\": 69.99,\r\n  \"stock\": 30,\r\n  \"category\": \"Accessories\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5163/api/product/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5163",
+					"path": [
+						"api",
+						"product",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Product",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5163/api/product/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5163",
+					"path": [
+						"api",
+						"product",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Authenticate",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Register",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Get Orders",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Order Product",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ5YXNoIiwianRpIjoiNzMyYTQ2ZTEtYzZiMy00NDRlLThmZmItZjc1YTcwZTgzM2MxIiwiZXhwIjoxNzQ0NDI0NjQwLCJpc3MiOiJBdXRoU2VydmljZSIsImF1ZCI6IkVjb21tZXJjZVVzZXJzIn0.2d8kdwicGD0POH8r3WDf3sPCDEZHW17WPifF0F53lZU",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5156/api/order",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5156",
+					"path": [
+						"api",
+						"order"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get One Order",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5156/api/order/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5156",
+							"path": [
+								"api",
+								"order",
+								"1"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 12 Apr 2025 04:48:42 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"orderId\": 1,\n    \"orderDate\": \"2025-04-12T02:20:24.817532\",\n    \"totalOrderPrice\": 1799.94,\n    \"items\": [\n        {\n            \"productId\": 4,\n            \"productName\": \"Gaming Monitor\",\n            \"quantity\": 6,\n            \"unitPrice\": 299.99,\n            \"totalPrice\": 1799.94\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "Delete Order",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
